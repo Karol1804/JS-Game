@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* All page */
+
+.allPage {
+    background-image: linear-gradient(to bottom right, red, yellow);
+    height: 100vh;
+    position: relative;
+  
+}
+
+/* Play Field */
+.playField {
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
+
+}
+/* Total Score */
+.totalScore {
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    position: relative;
+    padding: 14px;
+}
+.totalScore0{
+    position: absolute;
+    top: 8%;
+    left: 9%;
+   
+}
+.totalScore1{
+    position: absolute;
+    top: 8%;
+    right: 9%;
+    
+
+}
+.totalScore p:nth-child(2){
+    text-align: center;
+    font-size: 30px;
+
+}
+
+/* Curent Score */
+.curentScore{
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    background-color: rgb(244, 250, 192);
+}
+
+.curentScore0{
+    position: absolute;
+    top: 30%;
+    left: 9%;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    padding-top: 5%;
+}
+.curentScore1{
+    position: absolute;
+    top: 30%;
+    right: 9%;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    padding-top: 5%;
+
+}
+.curentScore p:nth-child(2){
+    text-align: center;
+    font-size: 30px;
+
+}
+
+/* Control Panel */
+.controlPanel{
+    position: absolute;
+    top: 70%;
+    left: 45%;
+}
+
+.btn{
+    border: 2px solid green;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(228, 226, 226);
+
+
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+
+/* Dice */
+.dice{
+    position: absolute;
+    top: 30%;
+    left: 42.5%;
+}
+
+/* Active Player */
+.active{
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 10px;
+    box-shadow: rgb(63, 62, 62) 8px 10px;
+    background-color: firebrick;
+    color: white;
+}
+/* Message*/
+.message{
+    position: absolute;
+    top: 60%;
+    left: 27%;
+    color: red;
+    font-size: 30px;
+    display: inline-block;
+
+}
